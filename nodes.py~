@@ -1,0 +1,11 @@
+def nodelist(edges):
+	names = []
+	for i in edges:
+		names.append(i[0])
+		names.append(1[1])
+	nodes = []
+	for j in names:
+		flag = j in nodes
+		if flag == False:
+			nodes.append(j)
+	return nodes

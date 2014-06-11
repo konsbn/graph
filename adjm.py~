@@ -1,0 +1,10 @@
+def make_adjacency(edges, len_nodes):
+	import numpy as np
+	adjm = np.zeros((len_nodes,len_nodes))
+	#print adjm
+	for i in edges:
+		c = (i[0] -1, i[1] -1)
+		#print c
+		adjm[c] = 1
+	return adjm
+	

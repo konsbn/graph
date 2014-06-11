@@ -1,0 +1,7 @@
+def distinct(a):
+	temp = []
+	for i in a:
+		flag = i in temp
+		if flag == False:
+			temp.append(i)
+	return temp

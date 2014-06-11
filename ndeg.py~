@@ -1,0 +1,6 @@
+def nodeg(degree, nodes):
+	import dis
+	node_degree = zip(nodes, degree)
+	temp = dis.distinct(node_degree)
+	return temp
+	
