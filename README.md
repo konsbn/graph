@@ -14,5 +14,5 @@ This can be a learning tool for anyone who is new into Graph Analytics. Since th
 #HELP ME MAKE THIS BETTER
 ##Links
 Here are a few links for those interested in graphs
-1. [Networkv](https://networkx.github.io/) This is written in Python it is slow for very large graphs. On the Plus side it's well documented and has a huge support community and learning material.
+1. [Networkx](https://networkx.github.io/) This is written in Python it is slow for very large graphs. On the Plus side it's well documented and has a huge support community and learning material.
 2. [Graph Tool](http://graph-tool.skewed.de/) This is really fast. But it's new and lacking in documentation 
